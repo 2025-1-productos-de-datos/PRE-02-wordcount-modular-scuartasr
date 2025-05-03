@@ -1,7 +1,7 @@
 import os
 
 
-def read_input_files(input_folder):
+def read_all_lines(input_folder):
     all_lines = []
     input_file_list = os.listdir(
         input_folder
